@@ -14,7 +14,7 @@ A collaboration with the group of Martin Engelke at Illinois State University.
 
 This project involves an automated detection and analysis of cilia length in cultured cells overexpressing motor proteins of the kif family. The goal is to correlate motor protein expression levels to cilia length.
 
-![Untitled](Project%2066%20Automated%20Cilia%20Analysis%20f1a15806e2ac44408fc43bcb2c1102c9/ims/Untitled.png)
+![Untitled](ims/Untitled.png)
 
 Figure 1: Example 4-channel input image. Blue - Nuclei; Green - Actin; magenta - Arl3b; Yellow - kif overexpression
 
