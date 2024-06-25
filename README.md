@@ -46,7 +46,7 @@ This data is collected in a csv file for later downstream analysis.
 
 ![Untitled](ims/Untitled%202.png)
 
-Figure 3: Examples of perinuclear masks around each nucleus, excluding overlapping nuclei.
+Figure 3: Examples of perinuclear masks around each nucleus, excluding overlapping nuclei. The values near each nucleus represent the measured mean kif intensity of that region, measured in the kif channel.
 
 ## Instructions to run the pipeline
 
