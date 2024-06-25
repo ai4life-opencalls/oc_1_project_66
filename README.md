@@ -52,7 +52,7 @@ Figure 3: Examples of perinuclear masks around each nucleus, excluding overlappi
 
 ### Step 1: Classify cilia using labkit in Fiji
 
-Run the script `classify_cilia.jm` in Fiji. This script requires Fiji and Labkit to be installed. You can download Fiji from [here](https://imagej.net/software/fiji/downloads). f you have an old Fiji installation, [Labkit](https://imagej.net/plugins/labkit/) might not be there by default. To install it, go to `Help > Update` in Fiji. Then, click on `Manage Update Sites`. From that list, scroll down to `Labkit`, select the checkbox, and click the `Apply and Close` button. Then from the Updated, select `Apply changes`.
+Run the [script](https://github.com/ai4life-opencalls/oc_1_project_66/blob/main/classify_cilia.ijm) `classify_cilia.jm` in Fiji. This script requires Fiji and Labkit to be installed. You can download Fiji from [here](https://imagej.net/software/fiji/downloads). f you have an old Fiji installation, [Labkit](https://imagej.net/plugins/labkit/) might not be there by default. To install it, go to `Help > Update` in Fiji. Then, click on `Manage Update Sites`. From that list, scroll down to `Labkit`, select the checkbox, and click the `Apply and Close` button. Then from the Updated, select `Apply changes`.
 
 There are 4 inputs:
 
