@@ -68,11 +68,11 @@ The output of this script is a folder of semantic segmentation images of cilia, 
 
 ### Step 2: Segment cells, nuclei, quantify motor protein intensity.
 
-Make a conda environment using the included yaml source file by typing `conda create -f environment.yaml`
+Make a conda environment using the included [yaml] (https://github.com/ai4life-opencalls/oc_1_project_66/blob/main/environment.yml) source file by typing `conda create -f environment.yaml`
 
 Activate this environment by typing `conda activate ai4life_cilia`
 
-If necessary, update the `config.yaml` file. In this file, you can set the following parameters:
+If necessary, update the `config.yaml` [file](https://github.com/ai4life-opencalls/oc_1_project_66/blob/main/config.yaml). In this file, you can set the following parameters:
 
 `cellpose_model_path_cell:` path to the custom cellpose cell segmentation model (default is `/models/cilia_cellpose_cell`) 
 
@@ -96,7 +96,7 @@ If necessary, update the `config.yaml` file. In this file, you can set the follo
 
 `min_nuc_area:` The minimum area a nuclear mask has to be in order to be counted as a nucleus (in pixels)
 
-Run the script by typing in the terminal `python process_images.py`. When prompted, select the location of the input data, the location of the segmentations generated in step 1, and a location for the output data.
+Run the [script](https://github.com/ai4life-opencalls/oc_1_project_66/blob/main/process_images_update.py) by typing in the terminal `python process_images.py`. When prompted, select the location of the input data, the location of the segmentations generated in step 1, and a location for the output data.
 
 ### Script output
 
