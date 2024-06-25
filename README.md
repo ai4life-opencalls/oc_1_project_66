@@ -36,7 +36,7 @@ Assigning cilia to nuclei follows a two-step process. First, cilia contained wit
 
 Cilia length is measured by two approaches. First, the length of an ellipse which fits the mask of the cilia measured. Secondly, the cilia is skeletonized and the length of the skeleton is measured. This allows users flexibility in the metric that is used for later analysis.
 
-![Untitled](Project%2066%20Automated%20Cilia%20Analysis%20f1a15806e2ac44408fc43bcb2c1102c9/Untitled%201.png)
+![Untitled](ims/Untitled%201.png)
 
 Figure 2: Example skeletonization output. Green - Actin; Magenta - arl3b; White - skeletonization of cilia 
 
@@ -44,7 +44,7 @@ Following this, a measurement mask is generated around the perinuclear region of
 
 This data is collected in a csv file for later downstream analysis.
 
-![Untitled](Project%2066%20Automated%20Cilia%20Analysis%20f1a15806e2ac44408fc43bcb2c1102c9/Untitled%202.png)
+![Untitled](ims/Untitled%202.png)
 
 Figure 3: Examples of perinuclear masks around each nucleus, excluding overlapping nuclei.
 
