@@ -1,0 +1,13 @@
+cellpose_model_path_cell: models\\cilia_cellpose_cell
+cellpose_model_path_nuc: models\\cilia_cellpose_nuc
+
+
+nuc_channel: 1
+kif_channel: 2
+mem_channel: 3
+arl_channel: 4
+second_measure_channel: -1
+perinuc_expansion: 15 
+min_cell_area: 2000
+min_cilia_area: 25
+min_nuc_area: 100
