@@ -129,13 +129,14 @@ def MakeDividingCellMask(labs, raw):
     
         plt.hist(mean_vals)
 
-#raw_data_location = easygui.diropenbox('Select raw data location')
-#output_data_location = easygui.diropenbox('Select output location')
-#cilia_location = easygui.diropenbox('Select classified cilia location')
+raw_data_location = easygui.diropenbox('Select raw data location')
+output_data_location = easygui.diropenbox('Select output location')
+cilia_location = easygui.diropenbox('Select classified cilia location')
 
-raw_data_location = 'test_data'
-output_data_location = 'output_5chan'
-cilia_location = 'classified_cilia'
+###for testing purposes
+#raw_data_location = 'test_data'
+#output_data_location = 'output_5chan'
+#cilia_location = 'classified_cilia'
 
 cellpose_model_path_cell = config['cellpose_model_path_cell']
 cellpose_model_path_nuc = config['cellpose_model_path_nuc']
@@ -152,12 +153,18 @@ arl_channel = config['arl_channel'] - 1
 second_measure_channel = config['second_measure_channel'] - 1
 
 
-
 input_data_list = os.listdir(raw_data_location)
+print(input_data_list)
+
+for file in input_data_list:
+    if file == "Thumbs.db":
+        input_data_list.remove(file)
+    
+print(input_data_list)
 
 for i, file in enumerate(input_data_list):
 
-    if i == 1:
+    if i > -1:
         print('===================================================================')
         print('running file ' + file)
         df = pd.DataFrame()
@@ -227,7 +234,7 @@ for i, file in enumerate(input_data_list):
             skel_overlay[skel > 0] = max_skel_value
             branch_data = summarize(Skeleton(skel))
             cilia_length = branch_data['branch-distance']
-            print('cilia length: ' + str(cilia_length))
+            #print('cilia length: ' + str(cilia_length))
         
 
 
