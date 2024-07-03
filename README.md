@@ -4,7 +4,9 @@
   </a>
 </p>
 
-[![DOI](https://zenodo.org/badge/748659546.svg)](https://zenodo.org/doi/10.5281/zenodo.10830120)
+
+[![DOI](https://zenodo.org/badge/819899460.svg)](https://zenodo.org/doi/10.5281/zenodo.12592903)
+
 
 # Project 66: Automated Cilia Analysis
 
