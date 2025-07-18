@@ -5,11 +5,10 @@
 </p>
 
 
+# Project 66: Automated Cilia Analysis
+
 [![DOI](https://zenodo.org/badge/819899460.svg)](https://zenodo.org/doi/10.5281/zenodo.12592903)
 ![Static Badge](https://img.shields.io/badge/Data_on_BIA-S--BIAD1044-blue?link=https%3A%2F%2Fwww.ebi.ac.uk%2Fbiostudies%2FBioImages%2Fstudies%2FS-BIAD1044%3Fquery%3DS-BIAD1044)
-
-
-# Project 66: Automated Cilia Analysis
 
 A collaboration with the group of Martin Engelke at Illinois State University. 
 
